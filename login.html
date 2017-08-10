@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+<div id="upPic"></div>
+<div id="menu">
+    <form>
+        <div id="ipt1">
+            <label for="uname">用户名</label>
+            <input type="text" id="uname" placeholder="请输入用户名"/>
+            <span id="spanName">*用户名可以包含数字,字母</span>
+        </div>
+        <div id="ipt2">
+            <label for="upwd">密码</label>
+            <input type="password" id="upwd" placeholder="请输入密码"/>
+            <span id="spanPwd">*密码长度在6-12位之间</span>
+        </div>
+    </form>
+    <button id="btn">登录</button>
+    <button id="btn2">免费注册</button>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
